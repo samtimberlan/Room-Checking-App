@@ -1,0 +1,22 @@
+{
+  "name": "room-checking-app",
+  "version": "1.0.0",
+  "description": "An app to check the availability of a room",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seyi-adeleke/Room-Checking-App.git"
+  },
+  "author": "group5a",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seyi-adeleke/Room-Checking-App/issues"
+  },
+  "homepage": "https://github.com/seyi-adeleke/Room-Checking-App#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
