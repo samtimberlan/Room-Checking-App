@@ -25,17 +25,18 @@
     
     <center><div class="ui-grid-b">
       <div class="ui-block-a"><img src = "images/room.jpg" alt = "workRoom"  height="200px" width="200px"/><br>Categories</div>
-      <div class="ui-block-b"><img src = "images/meeting.png" alt = "meetRoom" height="200px" width="200px"/><br>Let's Meet</div>
-      <div class="ui-block-c"><img src = "images/working.png" alt = "workRoom" height="200px" width="200px"/><br>Go to Work</div>
+      <div class="ui-block-b"><a href = "meet.html"><img src = "images/meeting.png" alt = "meetRoom" height="200px" width="200px"/></a><br><b>Let's Meet</b></div>
+      <div class="ui-block-c"><a href="work.html"><img src = "images/working.png" alt = "workRoom" height="200px" width="200px"/></a><br>Go to Work</div>
     </div>
-	
+	<br><br>
 	<div class="ui-grid-b">
-	<div class="ui-block-a"><img src = "images/games.jpg" alt = "gamesRoom" height="200px" width="200px"/><br>Games</div>
-      <div class="ui-block-b"><img src = "images/learning.png" alt = "learningRoom" height="200px" width="200px"/><br>Learning</div> 
-	  <div class="ui-block-c"><img src = "images/quiet.png" alt = "quietRoom" height="200px" width="200px"/><br>Be Quiet</div>
+	<div class="ui-block-a"><a href="games.html"><img src = "images/games.jpg" alt = "gamesRoom" height="200px" width="200px"/></a><br>Games</div>
+      <div class="ui-block-b"><a href="learn.html"><img src = "images/learning.png" alt = "learningRoom" height="200px" width="200px"/></a><br><b>Learning</b></div> 
+	  <div class="ui-block-c"><a href="quiet.html"><img src = "images/quiet.png" alt = "quietRoom" height="200px" width="200px"/></a><br><b>Be Quiet</b></div>
 	</div>
 	</center>
-	 meetings, games, quiet-time, learning, working.
+	 
+	 
 	</div>
 	<div data-role="footer" data-position="fixed">
 	
@@ -44,33 +45,9 @@
 	</div>
 	</div>
 	
-	<div data-role="page" id="pagetwo">
-	<div data-role="header">
-	<a href="#" class="ui-btn ui-icon-back ui-btn-icon-notext"" data-rel="back">Go Back</a>
-	<h1> Welcome to my App </h1>
-	</div>
-	<div data-role = "main" class ="ui-content">
-	<p><a href = "#pageone"data-transition = "slide" class = " ui-btn ui-btn-icon-left ui-icon-search ui-btn-inline">Go to page one</a></p>
-	</div>
-	<div data-role="footer">
-	<h1>My footer</h1>
-	</div>
-	</div>
-	
+
 	
 
-<script>
-  // Initialize Firebase
-  var config = {
-    apiKey: "AIzaSyDuDoFYz-dJr9lMMZULRb0-EZt4kqljO_U",
-    authDomain: "mytestapp-1b83d.firebaseapp.com",
-    databaseURL: "https://mytestapp-1b83d.firebaseio.com",
-    projectId: "mytestapp-1b83d",
-    storageBucket: "mytestapp-1b83d.appspot.com",
-    messagingSenderId: "565505846327"
-  };
-  firebase.initializeApp(config);
-</script>
 
 	</body>
 </html>
