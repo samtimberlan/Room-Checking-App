@@ -12,6 +12,12 @@ describe("should return valid html ", function() {
             });
 
         });
+        it("returns status code 200",function(){
+            request.get(base_url+"work.html", function(error, response, body) {
+                expect(response.statusCode).toBe(200);
+                done();
+            });
+        })
 
     });
 
