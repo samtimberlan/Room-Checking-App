@@ -2,7 +2,7 @@ const express = require('express');
 const path = require("path");
 
 module.exports = (app,config)=> {
-    app.use('/public', express.static(path.join(config.rootPath +'public')));
+    app.use(express.static('public'));
 
     app.listen(config.port, function (err) {
         if(err){
