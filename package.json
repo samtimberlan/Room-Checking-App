@@ -4,7 +4,8 @@
   "description": "An app to check the availability of a room",
   "main": "index.js",
   "scripts": {
-    "test": "jasmine"
+  "test": "jasmine",
+  "start": "node index.js"
   },
   "repository": {
     "type": "git",
