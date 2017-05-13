@@ -13,6 +13,7 @@
   <script src="js/jquery.mobile-1.4.5.min.js"></script>
  
   <script type = "text/javascript" src = "index.js"></script>
+
   
 </head>
 	<body>
@@ -20,7 +21,7 @@
 	<div data-role="header" data-position="fixed">
 	 <a href="" data-rel= back class="ui-btn ui-icon-back ui-btn-icon-left">Back</a>
 	
-	<h1> Meet Categories </h1>
+	<h1> Games Categories </h1>
 	
 	
 	</div>
@@ -28,10 +29,16 @@
 	<div data-role="main" class="ui-content">
     
 	<div class="ui-grid-c">
-      <div class="ui-block-a"><a href = "" rel="external"><img src = "images/available.jpg" alt = "workRoom"  height="200px" width="200px"/></a><br><b>Daniel's Room<span style="color:green;">(Available)</span></b></div>
-      <div class="ui-block-b"><a href = "" rel="external"><img src = "images/available.jpg" alt = "meetRoom" height="200px" width="200px"/></a><br><b>Timothy's Room<span style="color:green;">(Available)</span></b></div>
-      <div class="ui-block-c"><a href="" rel="external"><img src = "images/closed.jpg" alt = "workRoom" height="200px" width="200px"/></a><br><b>Olumide's Room<span style="color:red;">(Not Available)</span></b></div>
-	  <div class="ui-block-d"><a href="" rel="external"><img src = "images/available.jpg" alt = "workRoom" height="200px" width="200px"/></a><br><b>Seyi's Room<span style="color:green;">(Available)</span></b></div>
+      <div class="ui-block-a"><a href = "" rel="external"><span id="image"><img src = "images/available.jpg" alt = "workRoom"  height="200px" width="200px"/></span></a><br><b>Daniel's Room &nbsp;<span id="num">10</span>&nbsp;&nbsp;<span id="availability" style="color:green";>(Available)</span></b>
+	  <br><button class="ui-btn ui-btn-inline" onclick="space()">Join Now</button>
+	  </div>
+      <div class="ui-block-b"><a href = "" rel="external"><span id="image2"><img src = "images/available.jpg" alt = "meetRoom" height="200px" width="200px"/></span></a><br><b>Timothy's Room&nbsp;<span id="num2">9</span>&nbsp;&nbsp;<span id="availability2" style="color:green";>(Available)</span></b>
+	   <br><button class="ui-btn ui-btn-inline" onclick="space2()">Join Now</button>
+	   </div>
+      <div class="ui-block-c"><a href="" rel="external"><span id="image3"><img src = "images/available.jpg" alt = "workRoom" height="200px" width="200px"/></span></a><br><b>Olumide's Room&nbsp;<span id="num3">5</span>&nbsp;&nbsp;<span id="availability3" style="color:green";>(Available)</span></b>
+	   <br><button class="ui-btn ui-btn-inline" onclick="space3()">Join Now</button>
+	  </div>
+	  
     </div>
 	
     
